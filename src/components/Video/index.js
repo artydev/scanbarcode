@@ -8,8 +8,7 @@ const  Video = (function () {
    
     function onInitSuccess () {
         const controls = Scanner.controls
-        controls.scanBtn.style.color = "red";
-        controls.scanBtn.innerText = "scanning..."
+        controls.btnCamera.style.stroke = "white"
         Quagga.start();
     }
 
