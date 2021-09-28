@@ -1,16 +1,23 @@
 import SetupControls from "../Controls";
 import Video from "../Video";
 
-function _Scanner() {
-  this.isScanning = false;
-
-  this.startVideo = function () {
+class _Scanner {
+  constructor() {
+    this.isScanning = false;
+  }
+  
+  startVideo = function () {
     if (!this.isScanning) {
+      this.isScanning = true;
       Video.launchCamera();
     }
   };
 
-  this.startApp = function () {
+  showHistory = function () {
+
+  }
+  
+  startApp = function () {
     SetupControls(this);
   };
 }
