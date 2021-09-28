@@ -1,0 +1,18 @@
+{
+  "name": "scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "npx snowpack dev",
+    "build" : "npx snowpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "quagga": "^0.12.1",
+    "snowpack": "^3.8.8"
+  }
+}
